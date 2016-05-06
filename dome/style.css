@@ -1,0 +1,122 @@
+html,body{margin:0px;}
+li{list-style:none;}
+
+
+.list{width:200px;margin:20px auto 0;border:1px solid #ccc;}
+
+.list li{height:40px;line-height:40px}
+
+.heart{margin:0px auto;padding:50px;text-align:center;}
+.heart .icon-heart2{color:red;font-size:200px;
+    -webkit-animation: hearts .75s infinite;
+    -moz-animation: hearts .75s infinite;
+    animation: hearts .75s infinite;
+    display:inline-block;
+}
+
+
+
+/*@-webkit-keyframes hearts {
+    from{-webkit-transform: none}
+    to{-webkit-transform: scale(1.6);}
+}
+
+@keyframes hearts {
+    from{transform: none}
+    to{transform: scale(1.6);}
+}
+*/
+
+@-webkit-keyframes hearts {
+    from{-webkit-transform: none}
+    to{-webkit-transform: scale(1.6);}
+}
+@-o-keyframes hearts {
+    from{transform: none}
+    to{transform: scale(1.6);}
+}
+@-moz-keyframes hearts {
+    from{-moz-transform: none}
+    to{-moz-transform: scale(1.6,1.6);font-size:500px}
+}
+@keyframes hearts {
+    from{transform: none}
+    to{transform: scale(1.6,2);}
+}
+
+
+
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?34a6mk');
+    src:    url('fonts/icomoon.eot?34a6mk#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?34a6mk') format('truetype'),
+        url('fonts/icomoon.woff?34a6mk') format('woff'),
+        url('fonts/icomoon.svg?34a6mk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wifi-full:before {
+    content: "\e900";
+}
+.icon-screen:before {
+    content: "\e901";
+}
+.icon-phone:before {
+    content: "\e902";
+}
+.icon-tablet:before {
+    content: "\e903";
+}
+.icon-camera:before {
+    content: "\e904";
+}
+.icon-microwaveoven:before {
+    content: "\e905";
+}
+.icon-mapmarker:before {
+    content: "\e906";
+}
+.icon-heart:before {
+    content: "\e907";
+}
+.icon-switch:before {
+    content: "\e908";
+}
+.icon-key:before {
+    content: "\e909";
+}
+.icon-cloud-download:before {
+    content: "\f00b";
+}
+.icon-cloud-upload:before {
+    content: "\f00c";
+}
+.icon-device-camera-video:before {
+    content: "\f057";
+}
+.icon-gift:before {
+    content: "\f042";
+}
+.icon-heart2:before {
+    content: "\2665";
+}
+
